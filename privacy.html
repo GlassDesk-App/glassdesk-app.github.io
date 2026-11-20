@@ -3,7 +3,7 @@
 <title>Privacy policy — GlassDesk</title><link rel="stylesheet" href="style.css"></head>
 <body><main><div class="card">
 <h1>Privacy <span>policy</span></h1>
-<p class="dim">Last updated: 18 November 2026</p>
+<p class="dim">Last updated: 20 November 2026</p>
 <p>This policy explains what information GlassDesk (“the app”) uses and how it is handled. In short: everything stays on your own PC.</p>
 <h2>Information the app uses</h2>
 <ul>
@@ -27,7 +27,7 @@
 <li><strong>Game library scan</strong>: your Steam and Xbox folders are read to list the games you have installed.</li>
 <li><strong>FPS counter</strong>: the frame rate of the game you're playing, measured on your PC.</li>
 <li><strong>Windows location</strong>: used only for the weather. Your town is found on your PC, from a town list built into GlassDesk; the only thing that leaves your PC is the map position (to about 10 metres) in the forecast request to MET Norway, with no name, address or account.</li>
-<li><strong>Widget maker</strong>: &ldquo;Copy prompt &amp; open Claude&rdquo; only opens claude.ai in your browser when you click it. Nothing is sent until you paste the prompt there yourself.</li>
+<li><strong>Widget Studio</strong>: it never sends anything by itself. &ldquo;Make it with my Claude/ChatGPT&rdquo; copies the request to your clipboard and opens the site in your browser; you paste it there yourself, and GlassDesk reads your clipboard only while the Studio is waiting for your answer. &ldquo;Show Claude what it made&rdquo; only puts a picture of your widget's preview on the clipboard for you to paste. If you add your own API key, pressing &ldquo;Make widget&rdquo; sends your description and GlassDesk's instructions to that company (Anthropic or OpenAI) and nothing else.</li>
 </ul>
 <h2>Services GlassDesk can contact</h2>
 <p>GlassDesk has no servers of its own. It contacts these services directly from your PC, only when a widget that uses them is on your desktop, and every request names GlassDesk honestly:</p>
@@ -42,6 +42,8 @@
 <li><strong>RSS feeds you add</strong> — only the feeds listed in Settings → Feeds (a new install starts with NASA's news feed), plus the hosts their pictures are on.</li>
 <li><strong>Calendar links you add</strong>, and <strong>Google</strong> or <strong>Microsoft</strong> only if you sign in (read-only).</li>
 <li><strong>Spotify</strong> only if you sign in to it (read-only).</li>
+<li><strong>Anthropic</strong> (api.anthropic.com) or <strong>OpenAI</strong> (api.openai.com) — only if you add your own API key in the Widget Studio and press the button there; your widget description and GlassDesk's instructions are sent, nothing else.</li>
+<li><strong>Widgets you make</strong> in the Widget Studio can fetch data and pictures from the web addresses they use — only after you press Allow for that widget.</li>
 <li><strong>Ping</strong> widgets contact only the host you choose.</li>
 </ul>
 <h2>YouTube API Services</h2>
